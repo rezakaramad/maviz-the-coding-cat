@@ -29,7 +29,7 @@ public class PetCareController {
    */
   @GetMapping("/")
   public String home(Model model) {
-    model.addAttribute("message", "Feature: Beta");
+    model.addAttribute("message", "Feature: Omega");
     model.addAttribute("title", "Home Page");
     return "index"; // Return the template name
   }
